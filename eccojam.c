@@ -5,6 +5,8 @@
  by Mackenzie Starr 2013
  New York University
  
+ See README.md for usage/description
+ 
  LibSndFile, LibSmpRate courtesy of Erik De Castro Lopo
  http://www.mega-nerd.com/libsndfile/
  http://www.mega-nerd.com/SRC/
