@@ -57,9 +57,9 @@ typedef struct _soundfile{
 	//SRC MEMBERS
 	SRC_STATE	*src_state ;
 	SRC_DATA	src_data ;
-	int			error ;
+	int		error ;
 	SAMPLE 		src_input[FRAMES_PER_BUFFER * 100];
-	SAMPLE      src_output[FRAMES_PER_BUFFER * 100];
+	SAMPLE          src_output[FRAMES_PER_BUFFER * 100];
 	double 		src_ratio;
 	int 		src_type;
 
@@ -112,7 +112,7 @@ MAIN
 int main(int argc, char const *argv[])
 {
 	/*error checking for arguments*/
-	if (argc !=2 && argc !=3){
+	if (argc !=2){
 		printf("Usage: eccojam <audiofile>\n");
 		return EXIT_FAILURE;
 	}
