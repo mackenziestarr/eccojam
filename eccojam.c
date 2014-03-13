@@ -4,6 +4,11 @@
  Eccojam Making Application
  by Mackenzie Starr 2013
  New York University
+ 
+ LibSndFile, LibSmpRate courtesy of Erik De Castro Lopo
+ http://www.mega-nerd.com/libsndfile/
+ http://www.mega-nerd.com/SRC/
+ 
 */
 /******************************************/
 
