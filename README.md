@@ -2,14 +2,17 @@
 
 Author: Mackenzie Starr
 
-A Simple CLI Interface Program for Creating and Recording Eccojams
-Features Looping, Delay, and Real-Time Sample Rate Converson
+A CLI Interface Program for Creating and Recording Eccojams  
+Features Real-Time Looping, Delay, Sample Rate Converson of AIFF | WAV audio files
 
-Dependencies:
-PortAudio
-ncurses
-libsamplerate
-libsndfile
+Sample Output:
+http://soundcloud.com/mackenzie-11/eccojam-c
+
+Dependencies:  
+PortAudio [http://www.portaudio.com/download.html]  
+ncurses [http://www.gnu.org/software/ncurses/]  
+libsamplerate [http://www.mega-nerd.com/libsndfile/]  
+libsndfile [http://www.mega-nerd.com/SRC/]
 
 Usage:
 eccojam <audiofile>
